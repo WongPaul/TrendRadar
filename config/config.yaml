@@ -151,10 +151,14 @@ rss:
     - id: "DeepLearningAI"
       name: "DeepLearningAI"
       url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w"
+      enabled: false
 
     - id: "Google AI Blog"
       name: "Google AI Blog"
       url: "http://googleresearch.blogspot.com/atom.xml"
+      enabled: false
+
+
 
 
 
@@ -231,11 +235,11 @@ display:
     new_items: false # 新增热点区域（含热榜新增 + RSS 新增）
     hotlist: true # 热榜区域（关键词匹配的热点新闻）
     rss: true # RSS 订阅区域
-    standalone: true # 独立展示区（完整热榜/RSS，不受关键词过滤）
+    standalone: false # 独立展示区（完整热榜/RSS，不受关键词过滤）
     ai_analysis: false # AI 分析区域
   standalone:
     platforms: ["wallstreetcn-hot","github","cls-hot"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
-    rss_feeds: ["hacker-news","yahoo-finance","DeepLearningAI"] # RSS 源 ID 列表（如 ["hacker-news"]）
+    rss_feeds: ["hacker-news","yahoo-finance","ruanyifeng"] # RSS 源 ID 列表（如 ["hacker-news"]）
     max_items: 20                     # 每个源最多展示条数（0=不限制）
 
 
