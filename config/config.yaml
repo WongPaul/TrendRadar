@@ -142,7 +142,6 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false
 
     - id: "RSS-AI"
       name: "AI相关RSS"
@@ -157,6 +156,7 @@ rss:
       name: "Google AI Blog"
       url: "http://googleresearch.blogspot.com/atom.xml"
       enabled: false
+
 
 
 
