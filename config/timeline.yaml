@@ -440,7 +440,7 @@ custom:
 
     weekday_morning:
       name: "工作日早间"
-      start: "08:00"
+      start: "09:00"
       end: "10:00"                 # 跨度 2h，留足触发裕量
       push: true                   # 早上推送一次
       report_mode: "incremental"   # 只推新增内容
@@ -448,7 +448,7 @@ custom:
 
     weekend_morning:
       name: "周末早间"
-      start: "10:00"
+      start: "11:00"
       end: "12:00"                 # 跨度 2h
       push: true
       report_mode: "daily"         # 周末看全天汇总
@@ -456,7 +456,7 @@ custom:
 
     evening_summary:
       name: "晚间汇总"
-      start: "19:00"
+      start: "20:00"
       end: "21:00"
       analyze: false                # 晚间做 AI 分析
       ai_mode: "daily"             # AI 也分析全天内容
