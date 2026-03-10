@@ -93,6 +93,8 @@ platforms:
       name: "V2EX"
     - id: "jin10"
       name: "金十数据"
+    - id: "_36kr"
+      name: "36氪"
 
 
 
