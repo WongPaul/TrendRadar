@@ -89,8 +89,6 @@ platforms:
       name: "Solidot"
     - id: "ithome"
       name: "IT之家"
-    - id: "v2ex"
-      name: "V2EX"
     - id: "jin10"
       name: "金十数据"
 
