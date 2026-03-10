@@ -446,6 +446,14 @@ custom:
       report_mode: "incremental"   # 只推新增内容
       # once 继承 default（push: true）→ 窗口内只推一次
 
+    weekady_afternoon:
+      name: "工作日下午"
+      start: "15:00"
+      end: "17:00"
+      push: true
+      report_mode: "incremental"
+      # once 继承 default（push: true）→ 窗口内只推一次
+
     weekend_morning:
       name: "周末早间"
       start: "10:00"
@@ -472,9 +480,10 @@ custom:
   # 你可以定义多个日计划（如 workday 和 weekend），
   # 然后在第 3 步的 week_map 中分配给不同的星期。
   # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   day_plans:
     workday:                       # 工作日计划
-      periods: ["deep_quiet", "weekday_morning", "evening_summary"]
+      periods: [deep_quiet, weekday_morning, weekady_afternoon, evening_summary]
     weekend:                       # 周末计划（用 weekend_morning 替换 weekday_morning）
       periods: ["deep_quiet", "weekend_morning", "evening_summary"]
 
