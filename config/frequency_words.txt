@@ -148,6 +148,15 @@
 # ───────────────────────────────────────────────────────────────
 
 [WORD_GROUPS]
+[OpenClaw相关]
+OpenClaw
+WorkBuddy
+KimiClaw
+MaxClaw
+LobsterAI
+Molili
+miClaw
+ArkClaw
 
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
