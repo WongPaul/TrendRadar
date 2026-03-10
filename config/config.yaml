@@ -73,10 +73,6 @@ platforms:
       name: "贴吧"
     - id: "weibo"
       name: "微博"
-    - id: "douyin"
-      name: "抖音"
-    - id: "zhihu"
-      name: "知乎"
     - id: "cankaoxiaoxi"
       name: "参考消息"
     - id: "sputniknewscn"
@@ -91,10 +87,12 @@ platforms:
       name: "GitHub"
     - id: "solidot"
       name: "Solidot"
-    - id: "v2ex"
-      name: "V2EX"
     - id: "ithome"
       name: "IT之家"
+    - id: "v2ex"
+      name: "V2EX"
+    - id: "jin10"
+      name: "金十数据"
 
 
 
@@ -139,23 +137,17 @@ rss:
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
 
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-
     - id: "RSS-AI"
       name: "AI相关RSS"
       url: "https://www.bing.com/news/search?q=人工智能&format=RSS"
 
-    - id: "DeepLearningAI"
-      name: "DeepLearningAI"
-      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w"
-      enabled: false
+    - id: "HKFP"
+      name: "Hong Kong Free Press HKFP"
+      url: "https://www.hongkongfp.com/feed/"
 
-    - id: "Google AI Blog"
-      name: "Google AI Blog"
-      url: "http://googleresearch.blogspot.com/atom.xml"
-      enabled: false
+
+
+
 
 
 
