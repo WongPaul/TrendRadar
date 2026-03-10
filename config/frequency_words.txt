@@ -148,15 +148,6 @@
 # ───────────────────────────────────────────────────────────────
 
 [WORD_GROUPS]
-[OpenClaw相关]
-OpenClaw
-WorkBuddy
-KimiClaw
-MaxClaw
-LobsterAI
-Molili
-miClaw
-ArkClaw
 
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
@@ -232,6 +223,15 @@ ArkClaw
 [AI 相关]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
+OpenClaw
+WorkBuddy
+KimiClaw
+Cursor
+MaxClaw
+ArkClaw
+Molili
+miClaw
+LobsterAI
 
 [芯片]
 芯片
