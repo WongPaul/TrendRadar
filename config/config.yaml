@@ -91,6 +91,12 @@ platforms:
       name: "IT之家"
     - id: "jin10"
       name: "金十数据"
+    - id: "36kr-quick"
+      name: "36氪 快讯"
+    - id: "36kr-renqi"
+      name: "36氪 人气榜"
+    - id: "freebuf"
+      name: "Freebuf 网络安全"
 
 
 
@@ -224,7 +230,7 @@ display:
   regions:
     new_items: false # 新增热点区域（含热榜新增 + RSS 新增）
     hotlist: true # 热榜区域（关键词匹配的热点新闻）
-    rss: true # RSS 订阅区域
+    rss: false # RSS 订阅区域
     standalone: false # 独立展示区（完整热榜/RSS，不受关键词过滤）
     ai_analysis: false # AI 分析区域
   standalone:
