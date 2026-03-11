@@ -184,7 +184,7 @@
 /库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
 
 /\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+/\bAnthropic\b|\bClaude\b|\bDario Amodei\b|\bClaude Code\b|\bClaude Sonnet\b/ => Claude
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -223,10 +223,22 @@
 [AI 相关]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
+/(?<![a-zA-Z])AI(?![a-zA-Z])/
+
+[AI代码编辑器]
+/(?<![a-zA-Z])Cursor(?![a-zA-Z])/
+/(?<![a-zA-Z])Trae(?![a-zA-Z])/
+通义灵码
+/(?<![a-zA-Z])CodeBuddy(?![a-zA-Z])/
+/(?<![a-zA-Z])MarsCode(?![a-zA-Z])/
+/(?<![a-zA-Z])Windsurf(?![a-zA-Z])/
+/(?<![a-zA-Z])GitHub Copilot(?![a-zA-Z])/
+/(?<![a-zA-Z])Claude Code(?![a-zA-Z])/
+
+[Claw相关]
 OpenClaw
 WorkBuddy
 KimiClaw
-Cursor
 MaxClaw
 ArkClaw
 Molili
