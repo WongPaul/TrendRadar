@@ -1060,8 +1060,8 @@ def render_html_content(
                 if source_name:
                     rss_html += f'<span class="rss-author">{html_escape(source_name)}</span>'
 
-                if is_new:
-                    rss_html += '<span class="rss-author" style="color: #dc2626;">NEW</span>'
+                # if is_new:
+                #     rss_html += '<span class="rss-author" style="color: #dc2626;">NEW</span>'
 
                 rss_html += """
                             </div>
